@@ -14,6 +14,6 @@ git branch -M main
 git push -u origin main
 
 
-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
+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
 
-git remote set-url origin https://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@github.com/aravinthaslan/git
+git remote set-url origin https://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@github.com/aravinthaslan/git
