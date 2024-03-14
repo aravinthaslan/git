@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>hello world</title>
+<style>
+html{
+    background-image: url(background.avif); 
+    background-attachment: scroll;
+}
+</style>
+</head>
+<body>
+    <div id="example">
+        <h1 style="color: rgb(180, 0, 224);"onmouseout="out(this)" onmouseover="move(this)">ARAVINTH</h1>
+    </div>
+    <script>
+      function move(x){
+        console.log(x.textContent.toLowerCase());
+      }
+      function out(x){
+        console.log(x.textContent.toUpperCase());
+      }
+    </script>
+</body>
+
+</html>
